@@ -6,3 +6,5 @@ Configure o arquivo config.smtp.json com os dados do seu servidor SMTP para envi
 
 Documentação:
 [https://albreis.github.io/aula_js/documentacao/](https://albreis.github.io/aula_js/documentacao/)
+
+Obs.: este repositório foi criado para estudo de JavaScript
