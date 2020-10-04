@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale Conosco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="conteudo">
+    <div class="conteudo-interno">
+      <h2>Fale Conosco</h2>
+      <form id="form" action="sendmail.php">
+        <div id="error" style="display:none"></div>
+        <label id="nome"><span>Nome</span><input type="text" name="nome"></label>
+        <label id="email"><span>E-mail</span><input type="email" name="email"></label>
+        <label id="msg"><span>Mensagem</span><textarea name="mensagem" cols="30" rows="10"></textarea></label>
+        <button type="submit" onclick="verificar_dados()">ENVIAR</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
